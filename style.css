@@ -1,0 +1,582 @@
+@charset "utf-8";
+body {
+	background-color: black;
+	
+	margin: 0;
+	padding: 0;
+	font-family:'Kanit' /* UsedGoogleFontFamily:Kanit */;
+	font-size: 18px;
+}
+.nav {
+	background-color: #2874f0;
+	color:white;
+	list-style: none;
+	text-align: center;
+	padding: 25px 0 25px 0;
+	
+	font-size: 16px;
+}
+.nav> li {
+	display: inline-block;
+	padding:0 95px 0 95px;
+}
+.nav> li > a {
+	text-decoration: none;
+	color:white;
+}
+.nav > li > a:hover{
+		color:#CDCDCD;
+}
+
+.cou1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.cou2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+
+
+.vertical-menu {
+    width:1000px; 
+    font-size: 18px;
+
+}
+
+.vertical-menu a {
+    background-color:black; 
+    color: white;
+    display: block; 
+    padding: 12px; 
+    text-decoration: none;
+    opacity: .8;
+    l
+}
+
+.vertical-menu a:hover {
+    background-color:dimgrey; 
+}
+
+.vertical-menu a.active {
+    background-color: #29A2D1; 
+    color: white;
+}
+div{
+    margin-top:30px;
+}
+.hr{ 
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+}
+
+
+
+
+}
+.footer {
+	background-color: #0e6bb1;
+}
+#footer_container {
+	max-width: 100%;
+	height: 75px;
+	margin: 0 auto;
+	padding-top: 5px;
+	background-color: #2874f0;
+	
+}
+.footer {
+	list-style-type: none
+}
+.footer li a {
+	font-family:'Kanit' /* UsedGoogleFontFamily:Kanit */;
+	font-size: 15px;
+	display: inline;
+	float: right;
+	padding: 8px;
+	padding-right: 80px;
+	color: black;
+	text-decoration: none;
+	-o-transition :.5s;
+	-mx-transition :.5s;
+	-moz-transition :.5s;
+	-webkit-transition :.5s;
+	transition: .5s;
+}
+.footer li a:hover{
+	color: white;
+}
+.Copyright_text{
+	font-family:'Kanit' /* UsedGoogleFontFamily:Kanit */;
+	font-weight: 400;
+	padding-top: 0;
+	float: left;
+	line-height: 0.5cm;
+	text-transform: uppercase;
+	font-size: 0.30cm;
+	color: lightgrey;
+	padding-left: 40px;
+
+}
+.logo{
+	padding-top: 18px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.homepage
+{
+    background-image: url(images/tooplate_body_subpage.jpg); 
+}
+
+body 
+{
+  background-image:url( images/download.jpg);
+  margin: 0px;
+  padding: 0px;
+  color: #666;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 13px;
+  line-height: 1.7em; 
+  background-color: #fff;
+  background-repeat: repeat-x;
+  background-position: top; 
+}
+
+
+#page_wrapper 
+{
+  width: 960px;
+  padding: 0 20px;
+  margin: 0 auto
+}
+
+#page_header 
+{
+  width: 960px;
+  height: 100px;
+}
+
+#site_title h1 a { 
+  display: block; 
+  width: 1000px; 
+  height: 100px; 
+  color: #fff; 
+  text-indent: -10000px; 
+  background: url(images/tooplate_logo.png); 
+}
+
+#site_title h1 { 
+  margin: 0px 0 0 0; 
+  padding: 0; 
+}
+
+
+#site_title 
+{ 
+  float: left; 
+}
+
+.cleaner 
+{
+    clear: both 
+}
+
+#page_menu 
+{
+  clear: both;
+  width: 960px;
+  height: 50px;
+  background: url(images/tooplate_menu.jpg)
+}
+
+#page_menu ul {
+  float: left;
+  width: 740px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#page_menu ul li {
+  float: left;
+  display: block;
+  width: 100px;
+  padding: 0;
+  margin: 0;
+  display: inline;
+  text-align: center;
+  background: url(images/tooplate_menu_divider.png) no-repeat right center
+}
+
+#page_menu ul li a {
+  display: block;
+  width: 100px;
+  height: 32px;
+  padding: 8px 0 0;
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: #5fa008; 
+  font-weight: normal;
+  outline: none;
+  border: none;
+  background: url(images/tooplate_menu.png) no-repeat bottom center
+}
+
+#page_menu ul li a:hover , #page_menu ul li .current { 
+  color: #fff; 
+  height: 38px; 
+  padding: 5px 0 0 0; 
+  background: url(images/tooplate_menu_hover.png) bottom center no-repeat; 
+}
+
+#page_menu ul .last 
+{ 
+  background: none; 
+}
+
+
+#search_box 
+{ 
+  float: right; 
+  margin: 12px 0 0 0; 
+  width: 170px; 
+  height: 27px; 
+  background: url(images/tooplate_search.png) no-repeat; 
+}
+
+#search_box form
+{ 
+  clear: both; 
+  width: 170px; 
+  height: 26px; 
+  padding: 0; 
+  margin: 0; 
+} 
+
+#searchfield 
+{ 
+  float: left; 
+  display: block; 
+  height: 16px; 
+  width: 130px; 
+  padding: 5px; 
+  font-size: 12px; 
+  color: #ccc; 
+  line-height: 0; 
+  background: none; 
+  border: none; 
+} 
+
+#searchbutton 
+{ 
+  float: right; 
+  display: block; 
+  height: 26px; 
+  width: 30px; 
+  padding: 0; 
+  margin: 0; 
+  cursor: pointer; 
+  background: none; 
+  border: none; 
+}
+
+#page_middle_subpage
+{ 
+  clear: both;
+  width: 960px;
+  height: 130px;
+  background: url(images/tooplate_middle.png) no-repeat;
+}
+
+#page_middle_subpage h2 
+{ 
+  color: #fff; 
+    margin-top: 6px;
+    margin-bottom: 2px
+}
+
+#page_middle_subpage p 
+{ 
+  font-size: 16px; 
+  color: #eee; 
+  line-height: 30px; 
+}
+
+#page_middle_subpage a 
+{
+  color: #eee;
+}
+
+.page_login
+{ 
+  clear: both;
+    margin-top: 100px;
+  width: 960px;
+  height: 130px;
+}
+
+.loginpanel
+{   
+    color: black;
+    background-color: #2874f0; 
+    min-width: 52%;
+    max-width: 52%;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-bottom: 300px;
+}
+
+.signuppanel
+{   
+    color: black;
+    background-color: #2874f0;
+    min-width: 52%;
+    max-width: 52%;
+    min-height: 500px;
+    max-height: 700px;
+    
+}
+
+input[type=text], input[type=password] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button 
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cancelbtn 
+{
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.cancelbtn,.signupbtn 
+{
+    float: left;
+    width: 50%;
+}
+
+.container 
+{
+    padding: 16px;
+}
+
+.cancelcontainer 
+{
+    padding: 2px 15px;
+}
+
+.clearfix : after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+h2
+{
+    margin-right: 10px;
+    font-size: 25;
+}
+
+.lcancelbtn 
+{
+    width: 170px;
+    font-size: 15px;
+    background-color: #f44336;
+}
+
+#page_cr_wrapper {
+  clear: both;
+  width: 100%;
+  background: #000;
+}
+
+#page_cr {
+  width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  text-align: center;
+  color: #666;
+  background:  url(images/tooplate_footer.jpg) top center no-repeat
+}
+
+#page_cr a { 
+  color: #5fa008; 
+  font-weight: normal; 
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+
+

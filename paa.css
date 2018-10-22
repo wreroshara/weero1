@@ -1,0 +1,23 @@
+html,body{
+margin:0%;
+padding:0%;
+height: 720px
+width:100%;
+}
+#con{
+height: 100%;
+width: 100%;
+position: absolute;	
+}
+#oli{
+
+}
+
+#du{
+font-size: 30px;
+font-family: sans-serif;
+color:#16CC2B;
+padding-top:100px;
+}
+
+
